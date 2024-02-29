@@ -1,0 +1,12 @@
+body {
+  background-color: #f9f7fe;
+}
+
+.app {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem #00000026;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+}
