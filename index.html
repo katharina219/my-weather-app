@@ -14,19 +14,28 @@
   <body>
     <div class="app">
       <header>
-        <input type="text" value="enter a city" />
-        <input type="submit" value="search" />
+        <input
+          type="text"
+          value="enter a city"
+          required
+          class="search-form-input" />
+        <input type="submit" value="search" class="search-form-button" />
       </header>
       <main>
         <h1>Taipei</h1>
-        Saturday 22:19, clear sky
-        <br />
-        Humidity: 59%, Wind: 19.3km/h
-        <div>🌙24°C</div>
+        <div class="weather-data">
+          <div class="weather-details">
+            Saturday 22:19, clear sky
+            <br />
+            Humidity: <span class="numbers">59%</span>, Wind:
+            <span class="numbers">19.3km/h</span>
+          </div>
+          <div>🌙24°C</div>
+        </div>
       </main>
       <footer>
         This project was coded by <a href="#">Kathi</a> and is
-        <a href="#">open-sourced on Github</a> and hosted ny
+        <a href="#">open-sourced on Github</a> and hosted by
         <a href="#">Netlify</a>.
       </footer>
     </div>
