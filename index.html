@@ -16,21 +16,25 @@
       <header>
         <input
           type="text"
-          value="enter a city"
+          placeholder="enter a city"
           required
           class="search-form-input" />
         <input type="submit" value="search" class="search-form-button" />
       </header>
       <main>
-        <h1>Taipei</h1>
-        <div class="weather-data">
+        <div>
+          <h1 class="weather-app-city">Taipei</h1>
           <div class="weather-details">
             Saturday 22:19, clear sky
             <br />
             Humidity: <span class="numbers">59%</span>, Wind:
             <span class="numbers">19.3km/h</span>
           </div>
-          <div>🌙24°C</div>
+          <span class="temperature-post">
+            <div class="temperature-icon">🌙</div>
+            <div class="temperature-value">24</div>
+            <div class="temperature-unit">°C</div>
+          </span>
         </div>
       </main>
       <footer>
