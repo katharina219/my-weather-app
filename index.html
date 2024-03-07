@@ -14,16 +14,19 @@
   <body>
     <div class="app">
       <header>
-        <input
-          type="text"
-          placeholder="enter a city"
-          required
-          class="search-form-input" />
-        <input type="submit" value="search" class="search-form-button" />
+        <form id="search-form">
+          <input
+            type="text"
+            placeholder="enter a city"
+            required
+            class="search-form-input"
+            id="search-form-input" />
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
       </header>
       <main>
         <div>
-          <h1 class="weather-app-city">Taipei</h1>
+          <h1 class="weather-app-city" id="city">Taipei</h1>
           <div class="weather-details">
             Saturday 22:19, clear sky
             <br />
@@ -49,5 +52,6 @@
         >.
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
