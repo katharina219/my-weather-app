@@ -27,16 +27,18 @@
       </header>
       <main>
         <div>
-          <h1 class="weather-app-city" id="city">Taipei</h1>
+          <h1 class="weather-app-city" id="city"></h1>
           <div class="weather-details">
-            Saturday 22:19, clear sky
+            <span id="time">Saturday 22:19</span>,
+            <span id="description">clear sky</span>
             <br />
-            Humidity: <span class="numbers">59%</span>, Wind:
-            <span class="numbers">19.3km/h</span>
+
+            Humidity: <span class="numbers" id="humidity"></span>, Wind:
+            <span class="numbers" id="wind-speed"></span>
           </div>
           <span class="temperature-post">
             <div class="temperature-icon">🌙</div>
-            <div class="temperature-value" id="temperature">24</div>
+            <div class="temperature-value" id="temperature"></div>
             <div class="temperature-unit">°C</div>
           </span>
         </div>
