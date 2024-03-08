@@ -66,15 +66,22 @@ main {
   display: flex;
   position: relative;
   margin: 0px 0px 0px 550px;
-  top: -80px;
+  top: -100px;
+  left: -65px;
 }
 
 .temperature-value {
-  font-size: 60px;
+  font-size: 88px;
 }
 
 .temperature-icon {
-  font-size: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+.temperature-unit {
+  position: absolute;
+  left: 165px;
 }
 
 footer {
